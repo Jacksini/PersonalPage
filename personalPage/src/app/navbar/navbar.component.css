@@ -1,0 +1,15 @@
+.navbar{
+    background-color: rgb(0, 112, 188);
+}
+.logo{
+    margin: auto;
+    width: 2em;
+    height: 2em;
+}
+.navbar-brand{
+    margin: auto;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
