@@ -13,3 +13,19 @@
 .nav-link{
     color: white;
 }
+
+.background {
+    position: absolute;
+    height: 90vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: auto;
+  }
+  @media (min-width: 800px) {
+    .nav h1,
+    .slider h1 {
+      font-size: 5vw;
+    }
+}
