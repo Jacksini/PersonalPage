@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .badge-img {
+    vertical-align: middle;
+  }
+
+  .badge-text {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .badge-python {
+    background-color: #3670A0;
+    color: #ffdd54;
+  }
+
+  .badge-cpp {
+    background-color: #00599C;
+    color: #fff;
+  }
+
+  .badge-javascript {
+    background-color: #323330;
+    color: #F7DF1E;
+  }
+
+  .badge-java {
+    background-color: #ED8B00;
+    color: #fff;
+  }
+
+  .badge-angular {
+    background-color: #DD0031;
+    color: #fff;
+  }
+
+  .badge-vuejs {
+    background-color: #35495E;
+    color: #4FC08D;
+  }
+
+  .badge-html5 {
+    background-color: #E34F26;
+    color: #fff;
+  }
+
+  .badge-css3 {
+    background-color: #1572B6;
+    color: #fff;
+  }
+
+  .badge-godot {
+    background-color: #FFFFFF;
+    color: #000;
+  }
+
+  .badge-os {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .badge-os-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+.box{
+    padding-top: 50px;
+    width: 45%;
+    height: 290px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 10px;
+    margin: auto;
+}        

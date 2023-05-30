@@ -3,6 +3,6 @@ body {
 	width: 100vw;
 	height: 100vh;
 	margin: 0;
-	background: black;
+	background: rgb(2,0,36);
 	overflow: hidden;
 }

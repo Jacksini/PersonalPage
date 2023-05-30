@@ -1,5 +1,6 @@
 .navbar{
-    background-color: rgb(0, 112, 188);
+    background: rgb(74,70,148);
+    background: linear-gradient(114deg, rgba(74,70,148,1) 6%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
 }
 .logo{
     margin: auto;
