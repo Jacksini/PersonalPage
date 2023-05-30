@@ -1,32 +1,80 @@
-.navbar{
-    background: rgb(74,70,148);
-    background: linear-gradient(114deg, rgba(74,70,148,1) 6%, rgba(9,9,121,1) 80%, rgba(0,212,255,1) 100%);
-}
-.logo{
-    margin: auto;
-    width: 2em;
-    height: 2em;
-}
-.navbar-brand{
-    margin: auto;
-    color: white;
-}
-.nav-link{
-    color: white;
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.background {
-    position: absolute;
-    height: 90vh;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: auto;
-  }
-  @media (min-width: 800px) {
-    .nav h1,
-    .slider h1 {
-      font-size: 5vw;
-    }
+/* Estilos de la barra lateral */
+.sidebar {
+  width: 200px;
+  height: 100vh; /* altura igual a la del viewport */
+  background: rgb(134,47,138);
+  background: -moz-linear-gradient(0deg, rgba(134,47,138,1) 0%, rgba(17,30,97,1) 80%);
+  background: -webkit-linear-gradient(0deg, rgba(134,47,138,1) 0%, rgba(17,30,97,1) 80%);
+  background: linear-gradient(0deg, rgba(134,47,138,1) 0%, rgba(17,30,97,1) 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#862f8a",endColorstr="#111e61",GradientType=1);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.navigation i{
+  font-size: 1.5rem;
+}
+
+.navigation a:hover {
+  border-radius: 5px;
+  background-color: #f2f2f2; /* Cambiar el color de fondo en el hover */
+  color: #333; /* Cambiar el color del texto en el hover */
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.social a i {
+  font-size: 20px;
+}
+
+.social-title {
+  margin-bottom: 10px; /* Espacio vertical entre el título y los iconos */
+}
+
+.social-icons {
+  display: flex;
+  flex-direction:column; /* Para ordenar los elementos de manera lateral */
+  justify-content: space-between; /* Para distribuir los elementos de manera equitativa */
+}
+
+.social-icons i {
+  display: block;
+  margin-bottom: 5px; /* Espacio vertical entre los elementos */
+}
+
+
+/* Estilos del contenido de la página */
+.content {
+  margin-left: 200px; /* ancho de la barra lateral */
+  padding: 20px;
 }
